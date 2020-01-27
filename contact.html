@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,900&display=swap" rel="stylesheet">
+
+		<title>R&J, A Street Romance</title>
+
+		<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	</head>
+	<body>
+
+		<style>
+body {
+	  background-image: url('background.jpg');
+}
+</style>
+
+		<nav>
+			<div class="nav-wrapper">
+				<a class="logo" href="index.html">
+					<img width="30" src="images\logo.svg" alt="R&J">
+				</a>
+				<ul>
+					<li><a href="ticket.html">Ticket</a></li>
+					<li><a href="story.html">The Story</a></li>
+					<li><a href="#">About</a></li>
+				</ul>
+			</div>
+		</nav>
+
+	
+	<div class="row">
+
+        <h1> about </h1>
+	
+        <div class="column">
+            <p>The performance takes place in Les Nefs. They are large industrial halls that were once used for shipbuilding.
+                After having had transitional uses, in particular as a commercial warehouse, they were restored as part of the project to transform the site of the former shipyards.
+    Today, they constitute a covered space of more than 10,000 m² that functions in continuity with outdoor public spaces. The west and east facades are clad with sheet metal cladding or translucent panels. The gables are covered with a large, brightly coloured PVC canvas curtain system.</p>
+            <img src="images\nefs.jpg" alt="nefs" width="450">
+        </div>
+
+        <div class="column">
+        	<img src="images\map.png" alt="map" width="400">
+        	 <p>
+                Les Machines de l’île <br/>
+                Parc des Chantiers<br/>
+                Bd Léon Bureau<br/>
+                44200 Nantes<br/>
+                GPS : 47.206472 / -1.564297
+            </p>
+
+        	<button type="button" class="collapsible">More information</button>
+<div class="content">
+  <p>If you can't find our facilities, please contact us at <b>r&j@streetromance.com</b> or call us at <b>0852372211</b>. We will be more than happy to help you!</p>
+</div>
+
+
+      <script>             
+   var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+		</script>
+            
+           
+        </div>
+
+        </div>
+
+        <div class="footer">
+          <a href="#" class="fa fa-facebook"></a>
+      <a href="#" class="fa fa-twitter"></a>
+      <a href="#" class="fa fa-instagram"></a>
+        <p>R&J, A Street Romance 2019</p>
+    </div>
+
+
+	</body>
+</html>
